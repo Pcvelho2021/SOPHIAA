@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-width: 85%;
+    max-height: 80vh;
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container::-webkit-scrollbar { width: 5px; }
+.container::-webkit-scrollbar-thumb { background: #ffda79; border-radius: 10px; }
+
+h1 { color: #ffda79; font-size: 1.8rem; }
+
+.texto-importante p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.player-musica {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
